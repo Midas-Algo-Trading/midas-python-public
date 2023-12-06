@@ -1,0 +1,18 @@
+twilio:
+  account_sid: ''
+  auth_token: ''
+  from: ''
+  to: 1112223333
+polygon_api_key: ''
+midas_max_sleep_time: 1
+tda:
+  consumer_key: ''
+  account_number: ''
+strategy_allocations:
+  adjust_to_use_all_capital: false
+  test: 1.0
+# Limits the amount of money that can be traded in the given timeframe.
+trade_capital_limit:
+  minutes: 1
+  capital: 500
+text_alerts: true
